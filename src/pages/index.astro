@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS imports</title>
+
+    <link rel="stylesheet" href="/style/main.css">
+</head>
+<body>
+    <main>
+        <h1>Styled by main css file (referenced from HTML)</h1>
+        (expected green)
+        <hr />
+        <p>
+            Should be styled by imported css file (referenced via <code>@import "./text.css"</code>)
+        </p>
+        (expected blue)
+        <hr />
+    </main>
+</body>
+</html>

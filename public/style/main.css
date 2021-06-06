@@ -1,0 +1,15 @@
+@import url("./text.css");
+
+html,
+html * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Vedana, arial, sans-serif;
+}
+
+h1 {
+  color: seagreen;
+  font-size: 1.2rem;
+}

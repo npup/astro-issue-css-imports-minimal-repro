@@ -1,0 +1,12 @@
+{
+  "name": "css-imports",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "astro dev",
+    "build": "astro build",
+    "serve": "npm run build && python -m http.server 3001 --directory ./dist"
+  },
+  "devDependencies": {
+    "astro": "^0.12.1"
+  }
+}
